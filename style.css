@@ -17,3 +17,14 @@
          height: 100px;
  }
 
+.red-hover{
+        color: maroon !important; /*!important tells the system to picj this above all */
+}
+
+.red-hover:hover{
+        color: rebeccapurple !important;
+}
+
+.red-hover:active{
+        color: blue !important;
+}
