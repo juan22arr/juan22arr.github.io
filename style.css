@@ -17,14 +17,65 @@
          height: 100px;
  }
 
-/* .red-hover{ */
+.red-hover{
         color: maroon !important; /*!important tells the system to picj this above all */
 }
 
-/* .red-hover:hover{ */
+.red-hover:hover{
         color: rebeccapurple !important;
 }
 
-/* .red-hover:active{ */
+.red-hover:active{
         color: blue !important;
 }
+
+/* back grndimg control */
+body {
+        background-image: url('img/background.png');/* this is to control the background image*/
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+/*.name is for class attributes called in <a class="..."*/
+/* home page text control */
+.name {
+        font-size: 75px;
+        color: white;
+        padding-top: 12%;
+        padding-bottom: 0%;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .backtext {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 50px;
+            color:white;
+            font-family: 'Oswald', sans-serif;
+            margin: 0;
+    }
+
+/*      class = "text-center" centers the text in the <p> block
+        class = "name" / "backtext" are classes I created to format in the style.css file separately from the other classes
+        class = "h1" / "h2" increases and decreases the size of the font
+        id = "maroon" is an ID class I created to format in the style.css file separately from all others (you can only have one id in every file)
+        padding controls the whitespace corresponding to the block */
+
+/* 
+.background-color{
+        color
+}
+
+.padding_tb{
+        padding-left: 55%;        
+        padding-right: 55%;        
+
+}
+
+.margin{
+        margin: x%;
+}
+
+
+*/
