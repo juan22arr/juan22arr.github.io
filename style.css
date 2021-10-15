@@ -91,3 +91,13 @@ footer{
       color: white;
 }
 
+.centernav{
+        width: 100% !important;
+        left: 0;
+}
+
+.navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
