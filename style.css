@@ -30,8 +30,8 @@
 }
 
 /* back grndimg control */
-body {
-        background-image: url('img/Zoom-background-COE_ZACH-exterior-2.jpg');/* this is to control the background image*/
+.bodyindex {
+        background-image: url('img/background_use.jpg');/* this is to control the background image*/
         height: 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -56,6 +56,7 @@ body {
             margin: 0;
     }
 
+
 /*      class = "text-center" centers the text in the <p> block
         class = "name" / "backtext" are classes I created to format in the style.css file separately from the other classes
         class = "h1" / "h2" increases and decreases the size of the font
@@ -79,3 +80,14 @@ body {
 
 
 */
+
+footer{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: blueviolet;
+      padding-top: 2px;
+      color: white;
+}
+
